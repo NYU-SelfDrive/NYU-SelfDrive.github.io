@@ -775,7 +775,8 @@ p {
 .index-1 .block-1 article {
   border: 1px solid #000;
   border-top: none;
-  padding-top: 5px;
+  /* padding-top: 5px; */
+  margin-top: 10px;
   margin-bottom: 95px;
 }
 .index-1 .block-1 h4 {
