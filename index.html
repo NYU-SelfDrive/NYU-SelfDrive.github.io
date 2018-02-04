@@ -59,20 +59,9 @@
 					<nav>
 						<ul class="sf-menu">
 							<li class="current"><a href="index.html">About</a>
-								<!-- <ul> -->
-									<!-- <li><a href="#">Lorem ipsum</a></li> -->
-									<!-- <li><a href="#">Lorem ipsum</a> -->
-										<!-- <ul> -->
-											<!-- <li><a href="#">Lorem ipsum</a></li> -->
-											<!-- <li><a href="#">Lorem ipsum</a></li> -->
-											<!-- <li><a href="#">Lorem ipsum</a></li> -->
-										<!-- </ul> -->
-									<!-- </li> -->
-									<!-- <li><a href="#">Lorem ipsum</a></li> -->
-								<!-- </ul> -->
-							<!-- </li> -->
-							<li><a href="index-1.html">SelfDriveNYU Team</a></li>
+							<li><a href="index-1.html">Team</a></li>
 							<li><a href="index-2.html">Join US</a></li>
+							<li><a href="index-3.html">Blog</a></li>
 
 						</ul>
 					</nav>
@@ -173,9 +162,9 @@
 		</div>
 	</div>
 	<div class="full-width-container block-6">
-		<div class="google-map-api"> 
-			<div id="map-canvas" class="gmap"></div> 
-		</div> 
+		<div class="google-map-api">
+			<div id="map-canvas" class="gmap"></div>
+		</div>
 	</div>
 </section>
 
@@ -223,7 +212,7 @@
 	});
 </script-->
 <script>
-	$(document).ready(function() { 
+	$(document).ready(function() {
 			if ($('html').hasClass('desktop')) {
 				$.stellar({
 					horizontalScrolling: false,
@@ -238,7 +227,7 @@
 		google_api_map_init();
 		function google_api_map_init(){
 			var map;
-			var coordData = new google.maps.LatLng(parseFloat(40.6894388), parseFloat(-73.9036233,10)); 
+			var coordData = new google.maps.LatLng(parseFloat(40.6894388), parseFloat(-73.9036233,10));
 
 			var styleArray = [
 				{"featureType":"water","stylers":[{"color":"#021019"}]},
@@ -255,22 +244,22 @@
 				{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},
 				{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#144b53"},{"lightness":14},{"weight":1.4}]}
 				]
-			 
-			function initialize() { 
-			  var mapOptions = { 
-				zoom: 12, 
-				center: coordData, 
-				scrollwheel: false, 
-				styles: styleArray 
-			  } 
- 
-			  var contentString = "<div></div>"; 
-			  var infowindow = new google.maps.InfoWindow({ 
-				content: contentString, 
-				maxWidth: 200 
-			  }); 
-			   
-			  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+
+			function initialize() {
+			  var mapOptions = {
+				zoom: 12,
+				center: coordData,
+				scrollwheel: false,
+				styles: styleArray
+			  }
+
+			  var contentString = "<div></div>";
+			  var infowindow = new google.maps.InfoWindow({
+				content: contentString,
+				maxWidth: 200
+			  });
+
+			  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
 
 			google.maps.event.addDomListener(window, 'resize', function() {
@@ -281,7 +270,7 @@
 			});
 		}
 
-			google.maps.event.addDomListener(window, "load", initialize); 
+			google.maps.event.addDomListener(window, "load", initialize);
 
 		}
 </script>
