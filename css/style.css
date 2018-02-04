@@ -321,6 +321,7 @@ h4 {
 h2 {
   font: 400 60px/60px 'Open Sans', sans-serif;
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 50px;
   border-bottom: 3px solid #3c3c3e;
   display: inline-block;
@@ -1256,7 +1257,7 @@ p {
   }
 }
 /*========================================================
-								RESPONSIVE LAYOUTS STYLES 
+								RESPONSIVE LAYOUTS STYLES
 =========================================================*/
 @media only screen and (max-width: 1199px) {
   .sample {
