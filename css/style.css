@@ -175,7 +175,7 @@ h5 a:hover {
   left: 37%;
   width: 38px;
   height: 12px;
-  background: url(../images/menu-bullet.png) 0 -21px no-repeat;
+  background: url(../images/icons/menu-bullet.png) 0 -21px no-repeat;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -362,9 +362,11 @@ p {
   overflow: hidden;
   margin-bottom: 15px;
   position: relative;
+
+  text-align: center;
 }
 .img_block img {
-  width: 100%;
+  width: 60%;
 }
 .btn {
   width: 228px;
@@ -506,7 +508,7 @@ p {
   top: 0;
   left: 0;
   display: block;
-  background: url(../images/filler-1.png) repeat;
+  background: url(../images/icons/filler-1.png) repeat;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: 0.3s;
@@ -551,7 +553,7 @@ p {
   margin-right: 30px;
 }
 .index .block-4 {
-  background: url(../images/index_img_par.jpg);
+  /* background: url(../images/index_img_par.jpg); */
   background-attachment: fixed;
   background-position: center 0%;
   position: relative;
@@ -598,7 +600,7 @@ p {
   content: "";
   width: 21px;
   height: 38px;
-  background: url(../images/left-arrow.png) no-repeat;
+  background: url(../images/icons/left-arrow.png) no-repeat;
   position: absolute;
   top: 60px;
   left: -20px;
@@ -612,7 +614,7 @@ p {
   content: "";
   width: 21px;
   height: 38px;
-  background: url(../images/right-arrow.png) no-repeat;
+  background: url(../images/icons/right-arrow.png) no-repeat;
   position: absolute;
   top: 60px;
   right: -20px;
@@ -797,7 +799,7 @@ p {
   top: 0;
   left: 0;
   display: block;
-  background: url(../images/filler-1.png) repeat;
+  background: url(../images/icons/filler-1.png) repeat;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: 0.3s;
@@ -893,7 +895,7 @@ p {
   top: 0;
   left: 0;
   display: block;
-  background: url(../images/filler.png) no-repeat;
+  background: url(../images/icons/filler.png) no-repeat;
   background-size: 100%;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -1054,7 +1056,7 @@ p {
 }
 .index-3 .item-1 li {
   padding-left: 23px;
-  background: url(../images/bullet.png) 1px 9px no-repeat;
+  background: url(../images/icons/bullet.png) 1px 9px no-repeat;
   margin-bottom: 5px;
 }
 .index-3 .item-1 li a {
